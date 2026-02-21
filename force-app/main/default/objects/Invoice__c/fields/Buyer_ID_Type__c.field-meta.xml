@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer_ID_Type__c</fullName>
+    <label>Buyer ID Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NIP</fullName>
+                <default>true</default>
+                <label>NIP</label>
+            </value>
+            <value>
+                <fullName>NrVatUE</fullName>
+                <default>false</default>
+                <label>EU VAT (NrVatUE)</label>
+            </value>
+            <value>
+                <fullName>NrID</fullName>
+                <default>false</default>
+                <label>Other ID (NrID)</label>
+            </value>
+            <value>
+                <fullName>BrakID</fullName>
+                <default>false</default>
+                <label>No ID (BrakID)</label>
+            </value>
+            <value>
+                <fullName>PESEL</fullName>
+                <default>false</default>
+                <label>PESEL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

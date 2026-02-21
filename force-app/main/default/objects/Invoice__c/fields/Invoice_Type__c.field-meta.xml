@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Type__c</fullName>
+    <label>Invoice Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VAT</fullName>
+                <default>true</default>
+                <label>VAT</label>
+            </value>
+            <value>
+                <fullName>KOR</fullName>
+                <default>false</default>
+                <label>Correction (KOR)</label>
+            </value>
+            <value>
+                <fullName>ZAL</fullName>
+                <default>false</default>
+                <label>Advance (ZAL)</label>
+            </value>
+            <value>
+                <fullName>ROZ</fullName>
+                <default>false</default>
+                <label>Settlement (ROZ)</label>
+            </value>
+            <value>
+                <fullName>UPR</fullName>
+                <default>false</default>
+                <label>Simplified (UPR)</label>
+            </value>
+            <value>
+                <fullName>KOR_ZAL</fullName>
+                <default>false</default>
+                <label>Correction Advance (KOR_ZAL)</label>
+            </value>
+            <value>
+                <fullName>KOR_ROZ</fullName>
+                <default>false</default>
+                <label>Correction Settlement (KOR_ROZ)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
