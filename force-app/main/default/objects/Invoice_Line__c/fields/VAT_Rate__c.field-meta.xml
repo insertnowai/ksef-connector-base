@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_Rate__c</fullName>
+    <label>VAT Rate</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>23</fullName>
+                <default>true</default>
+                <label>23%</label>
+            </value>
+            <value>
+                <fullName>22</fullName>
+                <default>false</default>
+                <label>22%</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>8%</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>7%</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5%</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>4%</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3%</label>
+            </value>
+            <value>
+                <fullName>zw</fullName>
+                <default>false</default>
+                <label>Exempt (zw)</label>
+            </value>
+            <value>
+                <fullName>oo</fullName>
+                <default>false</default>
+                <label>Reverse charge (oo)</label>
+            </value>
+            <value>
+                <fullName>0 KR</fullName>
+                <default>false</default>
+                <label>0 KR</label>
+            </value>
+            <value>
+                <fullName>0 WDT</fullName>
+                <default>false</default>
+                <label>0 WDT</label>
+            </value>
+            <value>
+                <fullName>0 EX</fullName>
+                <default>false</default>
+                <label>0 EX</label>
+            </value>
+            <value>
+                <fullName>np I</fullName>
+                <default>false</default>
+                <label>np I</label>
+            </value>
+            <value>
+                <fullName>np II</fullName>
+                <default>false</default>
+                <label>np II</label>
+            </value>
+            <value>
+                <fullName>0</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0</label>
+            </value>
+            <value>
+                <fullName>np</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>np</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

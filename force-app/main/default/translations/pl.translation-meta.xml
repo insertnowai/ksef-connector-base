@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label>KSeF Test</label>
+        <name>KSeF_Test</name>
+    </customApplications>
+<customTabs>
+        <label>Faktury</label>
+        <name>Invoice__c</name>
+    </customTabs>
+    <customTabs>
+        <label>Pozycje faktur</label>
+        <name>Invoice_Line__c</name>
+    </customTabs>
+</Translations>

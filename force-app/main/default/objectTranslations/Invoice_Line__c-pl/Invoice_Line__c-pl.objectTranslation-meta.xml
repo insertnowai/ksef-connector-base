@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pozycja faktury</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pozycje faktury</value>
+    </caseValues>
+    <fields>
+        <name>Description__c</name>
+        <label>Opis</label>
+    </fields>
+    <fields>
+        <name>Gross_Amount__c</name>
+        <label>Kwota brutto</label>
+    </fields>
+    <fields>
+        <name>Invoice__c</name>
+        <label>Faktura</label>
+        <relationshipLabel>Pozycje faktury</relationshipLabel>
+    </fields>
+    <fields>
+        <name>Line_Number__c</name>
+        <label>Numer pozycji</label>
+    </fields>
+    <fields>
+        <name>Net_Amount__c</name>
+        <label>Kwota netto</label>
+    </fields>
+    <fields>
+        <name>Quantity__c</name>
+        <label>Ilość</label>
+    </fields>
+    <fields>
+        <name>Unit__c</name>
+        <label>Jednostka miary</label>
+    </fields>
+    <fields>
+        <name>Unit_Price_Net__c</name>
+        <label>Cena jednostkowa netto</label>
+    </fields>
+    <fields>
+        <name>VAT_Amount__c</name>
+        <label>Kwota VAT</label>
+    </fields>
+    <fields>
+        <name>VAT_Rate__c</name>
+        <label>Stawka VAT</label>
+        <picklistValues>
+            <masterLabel>23%</masterLabel>
+            <translation>23%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22%</masterLabel>
+            <translation>22%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8%</masterLabel>
+            <translation>8%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7%</masterLabel>
+            <translation>7%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5%</masterLabel>
+            <translation>5%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4%</masterLabel>
+            <translation>4%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3%</masterLabel>
+            <translation>3%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt (zw)</masterLabel>
+            <translation>Zwolniony (zw)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reverse charge (oo)</masterLabel>
+            <translation>Odwrotne obciążenie (oo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0 KR</masterLabel>
+            <translation>0% krajowy (0 KR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0 WDT</masterLabel>
+            <translation>0% WDT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0 EX</masterLabel>
+            <translation>0% eksport (0 EX)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>np I</masterLabel>
+            <translation>Nie podlega I (np I)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>np II</masterLabel>
+            <translation>Nie podlega II (np II)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation>0%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>np</masterLabel>
+            <translation>Nie podlega (np)</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Invoice Line Layout</layout>
+        <sections>
+            <label>Szczegóły pozycji</label>
+            <section>Line Details</section>
+        </sections>
+        <sections>
+            <label>System</label>
+            <section>System</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Numer pozycji</nameFieldLabel>
+</CustomObjectTranslation>
