@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Faktura</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Faktury</value>
+    </caseValues>
+    <fields>
+        <name>Advance_Invoice_KSeF_Ref__c</name>
+        <label>Nr KSeF faktury zaliczkowej</label>
+    </fields>
+    <fields>
+        <name>Advance_Invoice_Number__c</name>
+        <label>Numer faktury zaliczkowej</label>
+    </fields>
+    <fields>
+        <name>Buyer_Country__c</name>
+        <label>Kraj nabywcy</label>
+    </fields>
+    <fields>
+        <name>Buyer_ID_Type__c</name>
+        <label>Typ identyfikatora nabywcy</label>
+        <picklistValues>
+            <masterLabel>NIP</masterLabel>
+            <translation>NIP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU VAT (NrVatUE)</masterLabel>
+            <translation>NR VAT UE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other ID (NrID)</masterLabel>
+            <translation>Inny identyfikator</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No ID (BrakID)</masterLabel>
+            <translation>Brak identyfikatora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PESEL</masterLabel>
+            <translation>PESEL</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Buyer_NIP__c</name>
+        <label>NIP nabywcy</label>
+    </fields>
+    <fields>
+        <name>Buyer_Name__c</name>
+        <label>Nazwa nabywcy</label>
+    </fields>
+    <fields>
+        <name>Corrected_Invoice_Date__c</name>
+        <label>Data faktury korygowanej</label>
+    </fields>
+    <fields>
+        <name>Corrected_Invoice_KSeF_Ref__c</name>
+        <label>Nr KSeF faktury korygowanej</label>
+    </fields>
+    <fields>
+        <name>Corrected_Invoice_Number__c</name>
+        <label>Numer faktury korygowanej</label>
+    </fields>
+    <fields>
+        <name>Correction_Reason__c</name>
+        <label>Przyczyna korekty</label>
+    </fields>
+    <fields>
+        <name>Correction_Type__c</name>
+        <label>Typ korekty</label>
+        <picklistValues>
+            <masterLabel>1 - Item-level (Korekta pozycji)</masterLabel>
+            <translation>1 - Korekta pozycji</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Summary (Dane podsumowania)</masterLabel>
+            <translation>2 - Dane podsumowania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Non-financial (Bez zmiany kwot)</masterLabel>
+            <translation>3 - Bez zmiany kwot</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Currency_Code__c</name>
+        <label>Kod waluty</label>
+    </fields>
+    <fields>
+        <name>Invoice_Number__c</name>
+        <label>Numer faktury</label>
+    </fields>
+    <fields>
+        <name>Invoice_Type__c</name>
+        <label>Typ faktury</label>
+        <picklistValues>
+            <masterLabel>VAT</masterLabel>
+            <translation>VAT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction (KOR)</masterLabel>
+            <translation>Korekta (KOR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance (ZAL)</masterLabel>
+            <translation>Zaliczkowa (ZAL)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement (ROZ)</masterLabel>
+            <translation>Rozliczeniowa (ROZ)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simplified (UPR)</masterLabel>
+            <translation>Uproszczona (UPR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction Advance (KOR_ZAL)</masterLabel>
+            <translation>Korekta zaliczkowej (KOR_ZAL)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction Settlement (KOR_ROZ)</masterLabel>
+            <translation>Korekta rozliczeniowej (KOR_ROZ)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Is_Self_Billing__c</name>
+        <label>Samofakturowanie</label>
+    </fields>
+    <fields>
+        <name>Is_Split_Payment__c</name>
+        <label>Mechanizm podzielonej płatności (MPP)</label>
+    </fields>
+    <fields>
+        <name>Issue_Date__c</name>
+        <label>Data wystawienia</label>
+    </fields>
+    <fields>
+        <name>Payment_Method__c</name>
+        <label>Forma płatności</label>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Przelew</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>Gotówka</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card</masterLabel>
+            <translation>Karta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voucher</masterLabel>
+            <translation>Bon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>Czek</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Kredyt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation>Mobilna</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Sale_Date__c</name>
+        <label>Data sprzedaży</label>
+    </fields>
+    <fields>
+        <name>Seller_NIP__c</name>
+        <label>NIP sprzedawcy</label>
+    </fields>
+    <fields>
+        <name>Bank_SWIFT__c</name>
+        <label>Kod SWIFT</label>
+    </fields>
+    <fields>
+        <name>Is_Own_Bank_Account__c</name>
+        <label>Rachunek własny banku</label>
+    </fields>
+    <fields>
+        <name>Bank_Account_Description__c</name>
+        <label>Opis rachunku</label>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label>Dane faktury</label>
+            <section>Invoice Details</section>
+        </sections>
+        <sections>
+            <label>Nabywca</label>
+            <section>Buyer</section>
+        </sections>
+        <sections>
+            <label>Płatność</label>
+            <section>Payment</section>
+        </sections>
+        <sections>
+            <label>Korekta</label>
+            <section>Correction</section>
+        </sections>
+        <sections>
+            <label>Zaliczka / Rozliczenie</label>
+            <section>Advance / Settlement</section>
+        </sections>
+        <sections>
+            <label>System</label>
+            <section>System</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Numer faktury</nameFieldLabel>
+</CustomObjectTranslation>
