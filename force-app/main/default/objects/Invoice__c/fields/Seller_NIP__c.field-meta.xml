@@ -4,7 +4,7 @@
     <description>Seller tax identification number (NIP). Used to match invoice to the correct KSeF Seller configuration.</description>
     <label>Seller NIP</label>
     <length>10</length>
-    <required>false</required>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>
