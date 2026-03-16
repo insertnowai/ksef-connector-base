@@ -3,163 +3,159 @@
     <label>KSeF Field Mapping</label>
     <protected>false</protected>
     <values>
-        <field>Advance_Invoice_KSeF_Ref_Field__c</field>
+        <field>ksefconn__Advance_Invoice_KSeF_Ref_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Advance_Invoice_KSeF_Ref__c</value>
     </values>
     <values>
-        <field>Advance_Invoice_Number_Field__c</field>
+        <field>ksefconn__Advance_Invoice_Number_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Advance_Invoice_Number__c</value>
     </values>
     <values>
-        <field>Buyer_Address_L1_Field__c</field>
+        <field>ksefconn__Buyer_Address_L1_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_Address_L1__c</value>
     </values>
     <values>
-        <field>Buyer_Address_L2_Field__c</field>
+        <field>ksefconn__Buyer_Address_L2_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_Address_L2__c</value>
     </values>
     <values>
-        <field>Bank_Account_Number_Field__c</field>
+        <field>ksefconn__Bank_Account_Number_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Bank_Account_Number__c</value>
     </values>
     <values>
-        <field>Bank_Name_Field__c</field>
+        <field>ksefconn__Bank_Name_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Bank_Name__c</value>
     </values>
     <values>
-        <field>Buyer_Country_Field__c</field>
+        <field>ksefconn__Buyer_Country_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_Country__c</value>
     </values>
     <values>
-        <field>Buyer_ID_Type_Field__c</field>
+        <field>ksefconn__Buyer_ID_Type_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_ID_Type__c</value>
     </values>
     <values>
-        <field>Buyer_NIP_Field__c</field>
+        <field>ksefconn__Buyer_NIP_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_NIP__c</value>
     </values>
     <values>
-        <field>Buyer_Name_Field__c</field>
+        <field>ksefconn__Buyer_Name_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Buyer_Name__c</value>
     </values>
     <values>
-        <field>Corrected_Invoice_Date_Field__c</field>
+        <field>ksefconn__Corrected_Invoice_Date_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Corrected_Invoice_Date__c</value>
     </values>
     <values>
-        <field>Corrected_Invoice_KSeF_Ref_Field__c</field>
+        <field>ksefconn__Corrected_Invoice_KSeF_Ref_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Corrected_Invoice_KSeF_Ref__c</value>
     </values>
     <values>
-        <field>Corrected_Invoice_Number_Field__c</field>
+        <field>ksefconn__Corrected_Invoice_Number_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Corrected_Invoice_Number__c</value>
     </values>
     <values>
-        <field>Correction_Reason_Field__c</field>
+        <field>ksefconn__Correction_Reason_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Correction_Reason__c</value>
     </values>
     <values>
-        <field>Correction_Type_Field__c</field>
+        <field>ksefconn__Correction_Type_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Correction_Type__c</value>
     </values>
     <values>
-        <field>Currency_Field__c</field>
+        <field>ksefconn__Currency_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Currency_Code__c</value>
     </values>
     <values>
-        <field>Invoice_Number_Field__c</field>
+        <field>ksefconn__Invoice_Number_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Invoice_Number__c</value>
     </values>
     <values>
-        <field>Invoice_Type_Field__c</field>
+        <field>ksefconn__Invoice_Type_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Invoice_Type__c</value>
     </values>
     <values>
-        <field>Is_Active__c</field>
+        <field>ksefconn__Is_Active__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>Is_Self_Billing_Field__c</field>
+        <field>ksefconn__Is_Self_Billing_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Is_Self_Billing__c</value>
     </values>
     <values>
-        <field>Is_Split_Payment_Field__c</field>
+        <field>ksefconn__Is_Split_Payment_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Is_Split_Payment__c</value>
     </values>
     <values>
-        <field>Issue_Date_Field__c</field>
+        <field>ksefconn__Issue_Date_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Issue_Date__c</value>
     </values>
     <values>
-        <field>Line_Description_Field__c</field>
+        <field>ksefconn__Line_Description_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Description__c</value>
     </values>
     <values>
-        <field>Line_Gross_Amount_Field__c</field>
+        <field>ksefconn__Line_Gross_Amount_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Gross_Amount__c</value>
     </values>
     <values>
-        <field>Line_Net_Amount_Field__c</field>
+        <field>ksefconn__Line_Net_Amount_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Net_Amount__c</value>
     </values>
     <values>
-        <field>Line_Number_Field__c</field>
+        <field>ksefconn__Line_Number_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Line_Number__c</value>
     </values>
     <values>
-        <field>Line_Quantity_Field__c</field>
+        <field>ksefconn__Line_Quantity_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Quantity__c</value>
     </values>
     <values>
-        <field>Line_Relationship_Field__c</field>
+        <field>ksefconn__Line_Relationship_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Invoice__c</value>
     </values>
     <values>
-        <field>Line_Unit_Field__c</field>
+        <field>ksefconn__Line_Unit_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Unit__c</value>
     </values>
     <values>
-        <field>Line_Unit_Price_Net_Field__c</field>
+        <field>ksefconn__Line_Unit_Price_Net_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.Unit_Price_Net__c</value>
     </values>
     <values>
-        <field>Line_VAT_Amount_Field__c</field>
+        <field>ksefconn__Line_VAT_Amount_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.VAT_Amount__c</value>
     </values>
     <values>
-        <field>Line_PKWiU_Field__c</field>
+        <field>ksefconn__Line_PKWiU_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.PKWiU__c</value>
     </values>
     <values>
-        <field>Line_VAT_Rate_Field__c</field>
+        <field>ksefconn__Line_VAT_Rate_Field__c</field>
         <value xsi:type="xsd:string">Invoice_Line__c.VAT_Rate__c</value>
     </values>
     <values>
-        <field>Sale_Date_Field__c</field>
+        <field>ksefconn__Sale_Date_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Sale_Date__c</value>
     </values>
     <values>
-        <field>Payment_Due_Date_Field__c</field>
+        <field>ksefconn__Payment_Due_Date_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Payment_Due_Date__c</value>
     </values>
     <values>
-        <field>Payment_Method_Field__c</field>
+        <field>ksefconn__Payment_Method_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Payment_Method__c</value>
     </values>
     <values>
-        <field>Seller_NIP_Field__c</field>
-        <value xsi:type="xsd:string">Invoice__c.Seller_NIP__c</value>
-    </values>
-    <values>
-        <field>Bank_SWIFT_Field__c</field>
+        <field>ksefconn__Bank_SWIFT_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Bank_SWIFT__c</value>
     </values>
     <values>
-        <field>Is_Own_Bank_Account_Field__c</field>
+        <field>ksefconn__Is_Own_Bank_Account_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Is_Own_Bank_Account__c</value>
     </values>
     <values>
-        <field>Bank_Account_Description_Field__c</field>
+        <field>ksefconn__Bank_Account_Description_Field__c</field>
         <value xsi:type="xsd:string">Invoice__c.Bank_Account_Description__c</value>
     </values>
 </CustomMetadata>

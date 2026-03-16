@@ -1,0 +1,19 @@
+{
+  "orgName": "KsefScratch",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi"],
+  "language": "en_US",
+  "settings": {
+    "languageSettings": {
+      "enableTranslationWorkbench": true,
+      "enableEndUserLanguages": true,
+      "enablePlatformLanguages": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
