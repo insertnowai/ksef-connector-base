@@ -25,16 +25,12 @@
     <fieldPermissions><editable>true</editable><field>Invoice__c.Corrected_Invoice_Number__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Correction_Reason__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Correction_Type__c</field><readable>true</readable></fieldPermissions>
-    <fieldPermissions><editable>true</editable><field>Invoice__c.Currency_Code__c</field><readable>true</readable></fieldPermissions>
-    <fieldPermissions><editable>true</editable><field>Invoice__c.Invoice_Type__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Is_Own_Bank_Account__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Is_Self_Billing__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Is_Split_Payment__c</field><readable>true</readable></fieldPermissions>
-    <fieldPermissions><editable>true</editable><field>Invoice__c.Issue_Date__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Payment_Due_Date__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Payment_Method__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Invoice__c.Sale_Date__c</field><readable>true</readable></fieldPermissions>
-    <fieldPermissions><editable>true</editable><field>Invoice__c.Seller_NIP__c</field><readable>true</readable></fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Invoice Test Data</label>
     <objectPermissions>
